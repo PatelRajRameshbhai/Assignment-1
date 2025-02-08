@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.3/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+  <header class="bg-gray-900 text-white p-5">
+    <h1 class="text-4xl text-center">My Portfolio</h1>
+  </header>
+  
+  <main class="p-5">
+    <section class="text-center">
+      <h2 class="text-2xl font-bold mb-5">About Me</h2>
+      <p class="text-lg">Hi, I'm Patel Raj, a passionate web developer!</p>
+    </section>
+
+     <section class="p-8">
+        <h2 class="text-3xl font-semibold">Projects</h2>
+        <ul class="mt-2 list-disc list-inside">
+            <li>Project 1</li>
+            <li>Project 2</li>
+        </ul>
+    </section>
+  </main>
+  
+  <footer class="bg-gray-900 text-white p-5 text-center">
+    <p>&copy; 2025 My Portfolio</p>
+  </footer>
+</body>
+</html>

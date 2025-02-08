@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Sidebar -->
+    <div class="flex">
+        <div class="w-64 bg-gray-600 h-screen text-white p-5">
+            <h2 class="text-2xl font-bold mb-5">Dashboard</h2>
+            <ul>
+                <li class="py-2"><a href="#" class="hover:underline">Home</a></li>
+                <li class="py-2"><a href="#" class="hover:underline">Analytics</a></li>
+                <li class="py-2"><a href="#" class="hover:underline">Settings</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 p-5">
+            <div class="flex justify-between items-center bg-white p-4 shadow rounded-lg">
+                <h2 class="text-xl font-semibold">Dashboard Overview</h2>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded hover:underline">Logout</button>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-5">
+                <div class="bg-white p-5 rounded-lg shadow">
+                    <h3 class="text-lg font-semibold">Users</h3>
+                    <p class="text-2xl">250,000</p>
+                </div>
+                <div class="bg-white p-5 rounded-lg shadow">
+                    <h3 class="text-lg font-semibold">Revenue</h3>
+                    <p class="text-2xl">$500,000</p>
+                </div>
+                <div class="bg-white p-5 rounded-lg shadow">
+                    <h3 class="text-lg font-semibold">Sales</h3>
+                    <p class="text-2xl">100,000</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
